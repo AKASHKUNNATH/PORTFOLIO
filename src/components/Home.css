@@ -1,0 +1,74 @@
+.home {
+  height: 100vh;
+  background: linear-gradient(135deg, #1f4037, #99f2c8); /* Modern gradient */
+  position: relative;
+  color: #fff;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.home-text {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.home-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.home-text .role {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.home-text .description {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.btn {
+  padding: 12px 28px;
+  background-color: #00bfa6;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #00a38f;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
